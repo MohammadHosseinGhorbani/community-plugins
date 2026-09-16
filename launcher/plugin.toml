@@ -6,6 +6,7 @@ author       = "Mohammad Hossein Ghorbani"
 license      = "MIT"
 description  = "Add desktop shortcuts and launch apps or execute commands with them."
 icon         = "table-shortcut"
+tags         = ["desktop", "launcher", "system"]
 
 
 [[desktop_widget]]
