@@ -33,12 +33,14 @@ entry = "desktop.luau"
   [[desktop_widget.setting]]
     key = "label"
     type = "string"
+    default = ""
     label_key = "settings.label.label"
     description_key = "settings.label.description"
 
   [[desktop_widget.setting]]
     key = "label-color"
     type = "color"
+    default = "primary"
     label_key = "settings.label-color.label"
     description_key = "settings.label-color.description"
 
