@@ -5,8 +5,8 @@ Launcher is a **Dekstop Widget** plugin. It can be used like a desktop shortcut 
 ## Plugin
 
 | Field   | Value                            |
-| :-----: | :------------------------------: |
-| ID      | `MohammadHosseinGhorbani/launcher` |
+| --- | --- |
+| ID      | `mohammadhosseinghorbani/launcher` |
 | Entries | Desktop widget: `desktop`          |
 
 ## Usage
@@ -20,8 +20,8 @@ Add a **Launcher** widget to your desktop from Settings > Desktop. Configure the
 | `image` | `file` | — | — | The image to be used for the launcher. |
 | `radius` | `int` | `0` | min: `0`, max: `36` | The corner radius of the image, from 0 to 36. |
 | `label` | `string` | — | — | The label of the launcher/shortcut. |
-| `label-color` | `color` | — | — | The text color of the label. |
-| `display-label` | `select` | — | `never`, `on-hover`, `always` | Whether to display the label. |
+| `label-color` | `color` | primary | — | The text color of the label. |
+| `display-label` | `select` | `always` | `never`, `on-hover`, `always` | Whether to display the label. |
 | `command` | `string` | — | — | This command will be executed when the image is clicked. |
 | `notify-on-click` | `bool` | `false` | — | When enabled, clicking the shortcut will show a notification. |
 
