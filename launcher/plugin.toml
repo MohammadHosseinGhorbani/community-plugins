@@ -1,10 +1,11 @@
-id           = "MohammadHosseinGhorbani/Launcher"
+id           = "mohammadhosseinghorbani/launcher"
 name         = "Launcher"
 version      = "1.0.0"
 plugin_api   = 3
 author       = "Mohammad Hossein Ghorbani"
 license      = "MIT"
 description  = "Add desktop shortcuts and launch apps or execute commands with them."
+dependencies = []
 icon         = "table-shortcut"
 tags         = ["desktop", "launcher", "system"]
 
@@ -16,6 +17,7 @@ entry = "desktop.luau"
   [[desktop_widget.setting]]
     key = "image"
     type = "file"
+    default = ""
     label_key = "settings.image.label"
     description_key = "settings.image.description"
 
@@ -43,6 +45,7 @@ entry = "desktop.luau"
   [[desktop_widget.setting]]
     key = "display-label"
     type = "select"
+    default = "always"
     label_key = "settings.display-label.label"
     description_key = "settings.display-label.description"
     options = [
@@ -54,6 +57,7 @@ entry = "desktop.luau"
   [[desktop_widget.setting]]
     key = "command"
     type = "string"
+    default = ""
     label_key = "settings.command.label"
     description_key = "settings.command.description"
 
