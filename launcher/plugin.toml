@@ -1,0 +1,64 @@
+id           = "MohammadHosseinGhorbani/Launcher"
+name         = "Launcher"
+version      = "1.0.0"
+plugin_api   = 3
+author       = "Mohammad Hossein Ghorbani"
+license      = "MIT"
+description  = "Add desktop shortcuts and launch apps or execute commands with them."
+icon         = "table-shortcut"
+
+
+[[desktop_widget]]
+id = "desktop"
+entry = "desktop.luau"
+
+  [[desktop_widget.setting]]
+    key = "image"
+    type = "file"
+    label_key = "settings.image.label"
+    description_key = "settings.image.description"
+
+  [[desktop_widget.setting]]
+    key = "radius"
+    type = "int"
+    default = 0
+    min = 0
+    max = 36
+    label_key = "settings.radius.label"
+    description_key = "settings.radius.description"
+
+  [[desktop_widget.setting]]
+    key = "label"
+    type = "string"
+    label_key = "settings.label.label"
+    description_key = "settings.label.description"
+
+  [[desktop_widget.setting]]
+    key = "label-color"
+    type = "color"
+    label_key = "settings.label-color.label"
+    description_key = "settings.label-color.description"
+
+  [[desktop_widget.setting]]
+    key = "display-label"
+    type = "select"
+    label_key = "settings.display-label.label"
+    description_key = "settings.display-label.description"
+    options = [
+      { value = "never", label_key = "settings.display-label.never" },
+      { value = "on-hover", label_key = "settings.display-label.on-hover" },
+      { value = "always", label_key = "settings.display-label.always" }
+    ]
+
+  [[desktop_widget.setting]]
+    key = "command"
+    type = "string"
+    label_key = "settings.command.label"
+    description_key = "settings.command.description"
+
+  [[desktop_widget.setting]]
+    key = "notify-on-click"
+    type = "bool"
+    default = false
+    label_key = "settings.notify-on-click.label"
+    description_key = "settings.notify-on-click.description"

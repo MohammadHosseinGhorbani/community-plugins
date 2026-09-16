@@ -1,0 +1,35 @@
+{
+  "settings": {
+    "image": {
+      "label": "Image",
+      "description": "The image to be used for the launcher."
+    },
+    "command": {
+      "label": "Command",
+      "description": "This command will be executed when the image is clicked."
+    },
+    "label": {
+      "label": "Label",
+      "description": "The label of the launcher/shortcut."
+    },
+    "label-color": {
+      "label": "Label Color",
+      "description": "The text color of the label."
+    },
+    "display-label": {
+      "label": "Display Label",
+      "description": "Whether to display the label.",
+      "never": "Never",
+      "on-hover": "On Hover",
+      "always": "Always"
+    },
+    "radius": {
+      "label": "Radius",
+      "description": "The corner radius of the image, from 0 to 36."
+    },
+    "notify-on-click": {
+      "label": "Notify on Click",
+      "description": "When enabled, clicking the shortcut will show a notification."
+    }
+  }
+}
